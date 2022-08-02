@@ -1,0 +1,51 @@
+﻿@charset "utf-8";
+
+/* 基本レイアウト ここから↓ */
+@import url(common.css);
+#header {
+	width: 820px;
+	height: 70px;
+	margin: 0 auto 20px auto;
+	padding-top: 20px;
+	position: relative;
+}
+#header h1 {
+	position: absolute;
+}
+#nav {
+	padding-top: 10px;
+	position: absolute;
+	right: 0;
+}
+#nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+#nav ul li {
+	float: left;
+}
+#footer {
+	width: 820px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footer p {
+	margin-bottom: 0;
+	padding: 10px 0 10px 0;
+	background-color: #bc8e03;
+	text-align: center;
+}
+/* 基本レイアウト ここまで↑ */
+
+/* 「こだわり」ページ ここから↓ */
+
+/* 「こだわり」ページ ここまで↑ */
+
+/* 「メニュー」ページ ここから↓ */
+
+/* 「メニュー」ページ ここまで↑ */
+
+/* 「Web予約」ページ ここから↓ */
+
+/* 「Web予約」ページ ここまで↑ */
