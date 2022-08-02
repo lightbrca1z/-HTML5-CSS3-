@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+	<link rel="stylesheet" href="./css/style2.css">
+	<link rel="stylesheet" href="./css/style2_1.css">
+	<link rel="stylesheet" href="./css/style4.css">
+</head>
+
+<body>
+<!-- ========= header ========== -->
+
+<header>
+	<div class="container header-container">
+		<div class="header-inner">
+			<h1 class="header-logo"><a href="index.html">
+			<img src="./img/logo.png" srcset="./img/logo.png 1x,./img/logo@2x.png 2x" alt="Codera">
+			</a>
+		</h1>
+		<button class="menu-btn" id="mobile-menu"></button>
+		</div>
+	</div>
+</header>
+
+<!-- =========== /header ============ -->
+<!-- =========== nav =============== -->
+
+<nav>
+	<div class="container nav-container">
+		<ul class="navbar">
+			<li><a href="Index2C1001-2.html">ホーム</a></li>
+			<li><a href="CourseHtml2C1001.html">コース紹介</a></li>
+			<li><a href="Q&A2C1001.html">よくある質問</a></li>
+			<li><a href="Form2C1001.html">お申し込み</a></li>
+		</ul>
+	</div>
+</nav>
+<!-- =========== /nav ============= -->
+
+<!-- =========== keyvisual ============== -->
+<div class="home-keyvisual">
+	<img src="./img/keyvisual.jpg" alt="Codera" class="img-responsive">
+</div>
+
+<!-- =========== main ============= -->
+<section class="main">
+	<div class="container">
+		<main>
+			<h1>お申し込み</h1>
+			<div class="contact">
+			<p>受講をご希望の方は、以下のフォームに必要事項を入力してください。</p>
+			<form action="#" method="POST">
+			<p><label for="name-field">お名前</label><br>
+			<input type="text" name="name" id="name-field">
+			</p>
+			<p><label for="email-field">メールアドレス</label><br>
+			<input type="email" name="email" id="email-field">
+			</p>
+
+			<p>
+			<label for="course">ご希望のコース</label><br>
+			<select name="course" id="course">
+				<option value="" selected>コースを選択してください。</option>
+				<option value="course1">HTML&amp;CSS基礎</option>
+				<option value="course2">WordPressサイト構築</option>
+				<option value="course3">Pythonでデータ解析</option>
+				<option value="course4">Rubyスクレイピング</option>
+			</select>
+		</p>
+		<p><label for="comment">ご意見・ご質問など</label><br>
+		<textarea name="comment" id="comment"></textarea></p>
+		<p><input type="submit" name="submit" value="入力した内容を確認" id="submit"></p>
+		</form>
+		</div>
+		</main>
+	</div>
+</section>
+<!-- ============ /main ========== -->
+
+<!-- ============ footer =========== -->
+<footer>
+
+	<div class="container footer-container">
+
+		<ul class="footer-nav">
+			<li><a href="#">コース紹介</a></li>
+			<li><a href="#">よくある質問</a></li>
+			<li><a href="#">お申し込み</a></li>
+		</ul> <!-- /.footer-nav -->
+		<p class="footer-copyright">
+			&copy; codera
+		</p><!-- /.footer-copyright -->
+	</div> <!-- /. footer-container -->
+	
+</footer>
+<!-- =========== /footer =========== -->
+
+<script src="script/script.js"></script>
+</body>
+
+</html>
